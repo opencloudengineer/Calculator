@@ -10,3 +10,8 @@ Just check the dependencies in package.json before building and running with ele
 
 
 Works succesfully in Mozilla Firefox v61.0 and also with electron too (Just do 'npm start').
+
+
+Since I am using eval to calculate whats on screen, so 
+
+why don't you try calculating like - '2**4'
