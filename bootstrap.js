@@ -16,11 +16,11 @@ let win
 function createWindow () {
 	win = new BrowserWindow({
 		'width': 325,
-		'height': 320,
+		'height': 295,
 		'max-width': 325,
 		'max-height': 324,
 		'min-width': 325,
-		'min-height': 320
+		'min-height': 280
 	});
 
 	win.loadURL(url.format({
