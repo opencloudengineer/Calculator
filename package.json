@@ -1,5 +1,5 @@
 {
-  "name": "calc",
+  "name": "KalC",
   "version": "1.0.0",
   "description": "Simple Calculator",
   "main": "bootstrap.js",
@@ -7,7 +7,7 @@
     "start": "electron .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Siddharth Tiwari",
   "license": "ISC",
   "dependencies": {
     "app": "^0.1.0",
