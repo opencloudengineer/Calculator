@@ -19,6 +19,4 @@ Also included nthRoot function which can be use to used to calculate nth root of
 
 Brackets also added to enable BODMAS/PEMDAS.
 
-Since I am using eval to calculate whats on screen, so 
-
-why don't you try calculating like - '2**4'
+![KalC.png](KalC.png)
