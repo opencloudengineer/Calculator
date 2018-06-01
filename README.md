@@ -1,5 +1,6 @@
 # Calculator
-Calculator built using HTML, CSS, Javascript
+
+## Little bit more than a simple Calculator built using HTML, CSS & Javascript
 
 
 Just open index.html in any browser and it will open the calculator app in your browser window.
@@ -13,6 +14,10 @@ Do 'npm install' to install dependencies
 
 Works succesfully in Mozilla Firefox v61.0 and also with electron too (Just do 'npm start').
 
+
+Also included nthRoot function which can be use to used to calculate nth root of any number m by calling as nthRoot(m,n).
+
+Brackets also added to enable BODMAS/PEMDAS.
 
 Since I am using eval to calculate whats on screen, so 
 
