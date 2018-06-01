@@ -8,6 +8,8 @@ Also I have included the package.json and bootstrap.js files, so this app can be
 
 Just check the dependencies in package.json before building and running with electron.
 
+Do 'npm install' to install dependencies
+
 
 Works succesfully in Mozilla Firefox v61.0 and also with electron too (Just do 'npm start').
 
