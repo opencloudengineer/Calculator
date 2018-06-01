@@ -1,7 +1,7 @@
 {
   "name": "KalC",
   "version": "1.3.0",
-  "description": "Simple Calculator",
+  "description": "Little bit more than a simple Calculator",
   "main": "bootstrap.js",
   "scripts": {
     "start": "electron .",
