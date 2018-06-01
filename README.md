@@ -18,3 +18,5 @@ Works succesfully in Mozilla Firefox v61.0 and also with electron too (Just do '
 Since I am using eval to calculate whats on screen, so 
 
 why don't you try calculating like - '2**4'
+
+![KalC.png](KalC.png)
