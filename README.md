@@ -22,14 +22,12 @@ and then
 ## ./node-modules/.bin/electron-packager . KalC --asar --overwrite
 
 
-##### Also included nthRoot function which can be use to used to calculate nth root of any number m by calling as nthRoot(m,n).
+##### Also included nthRoot function which can be use to used to calculate nth root of any number 'm' by calling as nthRoot(m,n).
 
 ##### Brackets also added to enable BODMAS/PEMDAS.
 
 
-Since I am using eval to calculate whats on screen, so
-
-why don't you try calculating like - '2**4'
+Since I am using eval to calculate whats on screen, so why don't you try calculating something like - '2**4'
 
 ###### ![KalC.png](KalC.png)
 
