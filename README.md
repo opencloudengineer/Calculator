@@ -12,7 +12,14 @@ Just check the dependencies in package.json before building and running with ele
 ### Do 'npm install' to install dependencies for electron
 
 
-Works succesfully in Mozilla Firefox v61.0 and also with electron too (Just do 'npm start').
+Works succesfully in Mozilla Firefox v61.0 and also with electron too (Just do 'npm start' to test with electron).
+
+To build the desktop app, first install electron-packager with
+### npm install electron-packager
+
+and then 
+
+## ./node-modules/.bin/electron-packager . KalC --asar --overwrite
 
 
 ##### Also included nthRoot function which can be use to used to calculate nth root of any number m by calling as nthRoot(m,n).
