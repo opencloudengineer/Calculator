@@ -6,35 +6,32 @@
 }
 #calculator {
         width: 325px;
-        height: auto;
+        height: 400px;
 
-        padding: 20px;
-        background: linear-gradient(#777777, #777777);
+        border: 5px solid black;
+        padding: 15px;
+        background: linear-gradient(#999999, #555555);
 }
-.top span.clear {
-        float: left;
-}
-.top .screen {
+.screen {
         height: 50px;
         width: 292px;
         float: left;
         padding: 0 10px;
-        background: rgba(0, 0, 0, 0.2);
+        background: rgba(0, 0, 0, 0.5);
         border-radius: 0px;
-        box-shadow: inset 4px 4px rgba(0, 0, 0, 0.2);
+        box-shadow: inset 5px 5px rgba(0, 0, 0, 0.2);
         font-size: 15px;
         line-height: 60px;
         color: white;
         text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
         text-align: right;
         letter-spacing: 1px;
-
         margin: 0 7px 11px 0;
 }
 .keys, .top {
         overflow: hidden;
 }
-.keys span, .top span.clear {
+.keys span {
         float: left;
         position: relative;
         top: 0;
@@ -42,63 +39,34 @@
         width: 66px;
         height: 40px;
         background: white;
-        border-radius: 0px;
-        box-shadow: 0px 0px rgba(0, 0, 0, 0.2);
+        border-radius: 10px;
         margin: 0 7px 11px 0;
-        color: #888;
+        color: #000;
+        text-shadow: 5px 5px 2px rgba(0, 0, 0, 0.3);
         line-height: 40px;
         text-align: center;
         -webkit-user-select: none;
         user-select: none;
-        transition: all 0.2s ease;
+        transition: all 0.1s ease;
 }
 span.operator {
         margin-right: 0;
-}
-
-.keys span.operator {
+        text-shadow: 3px 3px 4px rgba(0, 0, 0, 1);
         background: #777777;
-        margin-right: 0;
+        border: 1px solid;
         font-size: 27px;
         color: white
 }
-
-span.nthRoot {
-}
-
-.keys span.nthRoot {
-        background: #000000;
+span.nthRoot, span.clear {
         font-size: 18px;
-        color: white;
-        width: 139px
+        width: 135px;
 }
 
-
-.keys span.eval {
-}
-.top span.clear {
-}
-.keys span:hover {
-        background: #000000;
-        color: white;
-}
-.keys span.eval:hover {
+.top .keys span:hover {
         background: #000000;
         color: #ffffff;
 }
-.top span.clear:hover {
-        background: #000000;
-        color: white;
-}
 .keys span:active {
         box-shadow: 0px 0px #6b54d3;
-        top: 4px;
-}
-.keys span.eval:active {
-        box-shadow: 0px 0px #717a3;
-        top: 4px;
-}
-.top span.clear:active {
-        box-shadow: 0px 0px #d3545d;
         top: 4px;
 }
