@@ -13,6 +13,7 @@ function nthRoot(m,n)
                 }
                 return cc
         }
+        //repe(x) - this function takes an input number as a guess and finds a better guess
   function repe(x)
   {
     var a,b;
