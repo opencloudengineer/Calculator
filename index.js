@@ -1,12 +1,9 @@
 var keys = document.querySelectorAll('#calculator span');
 var operators = [ '+' , '-' , '*' , '/' , 'nthRoot' , '(' , ')' ];
 var decimalAdd = false;
-
-
 function nthRoot(m,n)
 {
         var z;
-
         //Replacement for Math.pow
         //aa**bb is calculated here
         function power(aa,bb){
@@ -33,7 +30,6 @@ function nthRoot(m,n)
   repe(1);
   return(z)
 }
-
 for (var i = 0; i < keys.length; i++){
         keys[i].onclick = function(e){
                 var input = document.querySelector('.screen');
@@ -46,12 +42,6 @@ for (var i = 0; i < keys.length; i++){
                 else if(btnVal == '='){
                         var equation = inputVal;
                         var lasChar = equation[equation.length - 1];
-//                      equation = equation.replace(/x/g, '*').replace(/+/g, '/');
-
-//                      if((operators.indexOf(lasChar) > -1) || (lasChar == '.'))
-//                      {
-//                      equation = equation.replace(/.$/,'');
-//                      }
                         if(equation)
                         {
                                 if(eval(equation)%1 == 0)
@@ -61,15 +51,11 @@ for (var i = 0; i < keys.length; i++){
                                         input.innerHTML = t.toFixed(3);
                                 }
                         }
-
                         decimalAdd = false;
                 }
                 else
                 {
                         input.innerHTML += btnVal;
                 }
-
-        //      e.preventDefault();
-
         }
 }
