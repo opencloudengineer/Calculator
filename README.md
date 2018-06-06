@@ -19,7 +19,7 @@ To build the desktop app, first install electron-packager with
 
 and then 
 
-## ./node-modules/.bin/electron-packager . KalC --asar --overwrite
+## ./node-modules/.bin/electron-packager . Calculator --asar --overwrite
 
 
 ##### Also included nthRoot function which can be use to used to calculate nth root of any number 'm' by calling as nthRoot(m,n).
