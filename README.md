@@ -1,4 +1,5 @@
 # Calculator
+### Try it out at https://tiwarisiddharth.github.io/Calculator/
 ## Little bit more than a simple Calculator built using HTML, CSS & Javascript
 
 Just open index.html in any browser and it will open the calculator app in your browser window.
