@@ -22,3 +22,5 @@ and then
 Since I am using eval to calculate whats on screen, so why don't you try calculating something like - '2**4'
 ###### ![KalC.png](KalC.png)
 ## To run in browser all you need is index.js, index.html and calculator.css.
+
+Put all 3 in same directory and open index.html in browser.
